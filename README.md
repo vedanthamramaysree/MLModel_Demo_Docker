@@ -8,7 +8,7 @@ This repository includes code containerize and deploy the Huggingface model-BART
 
 <html>
 <body>
-<p> BART, which pre-trains a model combining Bidirectional and Auto-Regressive Transformers. BART is a denoising autoencoder built with a sequence-to-sequence model that applies to a very wide range of end tasks. In this repository, we used BART for the summarization of large texts into a few lines. 
+<p> BART, which pre-trains a model combining Bidirectional and Auto-Regressive Transformers. BART is a denoising autoencoder built with a sequence-to-sequence model that applies to a very wide range of end tasks. Since predictions are not made auto-regressively in BERT, the effectiveness of BERT for generation tasks is less compared to BART. BART achieves new state-of-the-art results on a number of text generation tasks. Unsurprisingly, the BART model output is more fluent and grammatical in English. However, model output is also highly abstractive, with few phrases copied from the input. Hence, in this repository, we experimented with BART for the summarization of large texts from technical writings into a few lines.
 </body>
 </html>
 
