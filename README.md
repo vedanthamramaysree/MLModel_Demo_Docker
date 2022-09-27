@@ -1,5 +1,5 @@
 # Model_Demo_Assignment2
-##MODEL DEPLOYMENT DEMONSTRATION
+## MODEL DEPLOYMENT DEMONSTRATION
 
 
 This repository includes code containerize and deploy the Huggingface model-BART, used for summarization of text. 
@@ -42,3 +42,6 @@ Containing a large number of questions and their respective answers, the Yahoo a
 This dataset is analyzed for unique, null, and missing values along with the unique values for each topics classes. Both the train and test datasets are analyzed. The analyses found that the dataset is very structured and appropriately collected. The classes are divided almost equally and hence it is well organized to be used for text analysis using NLP models. 
 
 **Purpose of the Dataset**: This dataset is considered for analysis because of its long text questions and answers. The questions and answers can be further summarized using the **app.py** and results can be posted to the container for analysis. Practically this way the dataset can be dimensionally reduced and important information can still be used for other NLP tasks.
+
+##Future Prospects
+As part of future prospects, the dataset and the app.py can be merged and analyzed together with different hugging face models.
