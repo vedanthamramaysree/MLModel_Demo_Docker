@@ -1,5 +1,5 @@
 #cuda version and ubuntu version for hugging face model
-#nvidia container imagines
+#nvidia container images
 FROM nvidia/cuda:11.0-cudnn8-runtime-ubuntu18.04
 
 #environment variables
