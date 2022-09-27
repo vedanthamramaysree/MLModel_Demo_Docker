@@ -1,5 +1,5 @@
 # Model_Demo_Assignment2
-#MODEL DEPLOYMENT DEMONSTRATION
+##MODEL DEPLOYMENT DEMONSTRATION
 
 
 This repository includes code containerize and deploy the Huggingface model-BART, used for summarization of text. 
@@ -32,7 +32,7 @@ In this repository, I have used an article written by me in medium to summarize 
 **Docker_Container**: Docker file which creates the docker container.
 
 
-#EXPLORATORY DATA ANALYSIS DEMONSTRATION - HuggingFace Dataset
+## EXPLORATORY DATA ANALYSIS DEMONSTRATION - HuggingFace Dataset
 
 **huggingface_dataset_yahooanswers.ipynb** : This file includes exploratory data analysis on Yahoo Answers Topics Dataset dataset in the huggingface datasets 
 
