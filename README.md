@@ -30,4 +30,3 @@ In this repository, I have used an article written by me in medium to summarize 
 **app.py**: This creates the API for the model.
 
 **Docker_Container**: Docker file which creates the docker container.
-
