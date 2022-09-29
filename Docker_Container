@@ -1,10 +1,18 @@
-FROM tiangolo/uvicorn-gunicorn-fastapi:python3.7
+FROM python:3.7
+WORKDIR /fastapi
 
-# Copy our application code
-WORKDIR /var/app
+COPY requirements.txt /fastapi
+RUN pip install -r requirements.txt
 
 # . Here means current directory.
 COPY . .
 
-COPY requirements.txt .
-RUN pip --no-cache-dir install -r requirements.txt
+
+ENV LC_ALL=C.UTF-8
+ENV LANG=C.UTF-8
+
+
+EXPOSE 80
+
+# Start the app
+CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "80"]
