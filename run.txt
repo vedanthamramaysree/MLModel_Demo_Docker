@@ -1,5 +1,5 @@
-Step1: Run "pip3 install transformers==4.6.1"
-step2: RUN "pip3 install torch==1.9.0"
-Step3: RUN "python3 Download_Huggingface_Local.py"
-Step4: docker build -t summarization .
-Step5: docker run -p 80:80 --gpus all summarization
+Step1: Run "py -m pip install transformers==4.6.1"
+step2: RUN "py -m install torch==1.11.0"
+Step3: RUN "py -m Download_Huggingface_Local.py"
+Step4: docker build . -f Docker_Container -t fastapi_learn_new
+Step5: docker run -p 80:80 -it fastapi_learn_new
