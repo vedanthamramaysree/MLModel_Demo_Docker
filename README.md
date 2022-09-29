@@ -32,6 +32,8 @@ In this repository, I have used an article written by me in medium (https://medi
 
 **Docker_Container**: Docker file which creates the docker container.
 
+**Demonstration for Model API using Docker.docx** : Demonstration with outputs of GET and POST requests to Docker API using FASTAPI.
+
 
 ## EXPLORATORY DATA ANALYSIS DEMONSTRATION - HuggingFace Dataset
 
