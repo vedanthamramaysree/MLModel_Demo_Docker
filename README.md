@@ -1,4 +1,3 @@
-# Model_Demo_Assignment2
 ## MODEL DEPLOYMENT DEMONSTRATION
 
 
